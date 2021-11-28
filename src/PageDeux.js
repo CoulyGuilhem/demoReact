@@ -14,7 +14,7 @@ function PageDeux() {
             <Link
                 to={"/PageTrois"}
                 state={slug}> {/* stock une donnée a passer dans le state*/}
-                Aller à la page une avec un state
+                Aller à la page trois avec un state
             </Link>
         </div>
     )
