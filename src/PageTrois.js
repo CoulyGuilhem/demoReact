@@ -8,7 +8,7 @@ function PageTrois() {
         <div>
             <h1>PAGE TROIS</h1>
             {/* location.state contient la donnée passée dans la page deux (soit slug)*/}
-            <div>{location.state}</div>
+            <div>state passée: {location.state}</div>
         </div>
     )
 }
